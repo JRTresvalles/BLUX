@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.svg"
+      type="image/x-icon"
+    />
+    <!--REMIX ICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/scss/styles.css" />
+    <title>BLUX</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-bubble-chart-fill nav__logo-icon"></i>BLUX
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faqs" class="nav__link">FAQs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact us</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+          <img src="assets/img/box-1.png" alt="Circle" class="nav__img-1" />
+          <img src="assets/img/box-2.png" alt="Circle" class="nav__img-2" />
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-5-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img
+            src="assets/img/Cube-card.png"
+            alt="website-isometric"
+            class="home__img"
+          />
+
+          <div class="home__data">
+            <h1 class="home__title">Welcome to Blux</h1>
+            <p class="home__description">
+              <q
+                >We help businesses grow by making affordable and quality
+                websites.</q
+              >
+            </p>
+            <a href="#about" class="button button--flex">
+              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          src="assets/img/circle-1.png"
+          alt="Circle"
+          class="home__circle-1"
+        />
+        <img
+          src="assets/img/circle-2.png"
+          alt="Circle"
+          class="home__circle-2"
+        />
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <img src="assets/img/Build.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              About us
+              
+              <img
+                src="assets/img/triangle.png"
+                alt="about"
+                class="about__data-img"
+              />
+            </h2>
+
+            <p class="about__description">
+              We have over 120+ unbiased reviews and our customers trust our web
+              development process and delivery service every time
+            </p>
+
+            <div class="about__details">
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We always deliver on time.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We give you guides to maintain your websites.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We always come over for a fix bugs after sale.
+              </p>
+              <p class="about__details-description">
+                <i class="ri-checkbox-fill about__details-icon"></i>
+                We are always ready to help by providing the best service for
+                you.
+              </p>
+            </div>
+
+            <a href="#contact" class="button--link button--flex">
+              Get Started <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+          <img
+            src="assets/img/circle-1.png"
+            alt="Circle"
+            class="about__circle-1"
+          />
+        </div>
+      </section>
+
+      <!-- STEPS -->
+      <section class="steps section container">
+        <div class="steps__bg">
+          <h2 class="section__title-center steps__title">
+            Steps to start your <br />
+            own website
+          </h2>
+
+          <div class="steps__container grid">
+            <div class="steps__card">
+              <div class="steps__card-number">01</div>
+              <h3 class="steps__card-title">Choose themes</h3>
+              <p class="steps__card-description">
+                We have several varieties templates you can choose from.
+              </p>
+            </div>
+
+            <div class="steps__card">
+              <div class="steps__card-number">02</div>
+              <h3 class="steps__card-title">Place an order</h3>
+              <p class="steps__card-description">
+                Once your templates is set, we move to the next step which is
+                the deploying.
+              </p>
+            </div>
+
+            <div class="steps__card">
+              <div class="steps__card-number">03</div>
+              <h3 class="steps__card-title">
+                Get website delivered thru email
+              </h3>
+              <p class="steps__card-description">
+                Our delivery process is easy, you receive the files to your
+                computer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="product section container" id="products">
+        <h2 class="section__title-center">
+          Check out our <br />
+          Services
+        </h2>
+
+        <p class="product__description">
+          Here are some of our services
+        </p>
+
+        <div class="product__container grid">
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-1.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">Website Design</h3>
+            <span class="product__price">$539.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-2.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">Website Optimization</h3>
+            <span class="product__price">$699.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-3.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">Website Maintenance</h3>
+            <span class="product__price">$579.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-4.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">Web app Development</h3>
+            <span class="product__price">$499.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-6.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">E-commerce development</h3>
+            <span class="product__price">$899.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <div class="product__circle"></div>
+
+            <img
+              src="assets/img/cube-service-7.png"
+              alt=""
+              class="product__img"
+            />
+
+            <h3 class="product__title">Search engine optimization</h3>
+            <span class="product__price">$239.99</span>
+
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!-- QUESTIONS -->
+      <section class="questions section" id="faqs">
+        <h2 class="section__title-center questions__title container">
+          Some common questions <br />
+          often asked
+        </h2>
+
+        <div class="questions__container container grid">
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How can I improve the performance of my website?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Optimize images, minify code, and use a content delivery
+                  network (CDN) to improve website loading times.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">
+                  My Website has a Broken links
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Regularly check and update any outdated links, and use tools
+                  such as broken link checkers to find and fix any broken links.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How much does it cost to develop a website?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  The cost to develop a website can vary greatly depending on a
+                  number of factors such as the complexity of the design and
+                  functionality, the number of pages, the technologies used, and
+                  the experience level of the development team. A basic website
+                  can cost as little as a few hundred dollars, while a more
+                  complex website with custom features and functionality can
+                  cost tens of thousands of dollars or more. It's always
+                  recommended to get quotes from multiple development teams to
+                  compare costs and ensure you're getting a fair price for the
+                  scope of work.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">Security issues</h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Use secure protocols such as HTTPS, and keep software and
+                  plugins up to date to prevent security vulnerabilities.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How long does it take to develop a website?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  It's important to note that developing a website is an
+                  iterative process. It is not just the time to build the
+                  website, but also the time to gather requirements, plan,
+                  design, test, launch, and maintain the website. The
+                  development time frame also depends on the availability of the
+                  client and their readiness in providing the necessary
+                  information and feedback.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-settings-4-fill questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How can I maintain my website after it's launched?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Keep software and plugins up to date: Make sure to regularly
+                  update the software and plugins used to build your website.
+                  This will ensure that you have the latest security updates and
+                  bug fixes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section container" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__box">
+            <h2 class="section__title">
+              Reach out to us today <br />
+              via any of the given <br />
+              information
+            </h2>
+
+            <div class="contact__data">
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Call us for instant support</h3>
+                <span class="contact__description">
+                  <i class="ri-phone-line contact__icon"></i>
+                  +993 847 727
+                </span>
+              </div>
+
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Write us by mail</h3>
+                <span class="contact__description">
+                  <i class="ri-mail-line contact__icon"></i>
+                  Blux@email.com
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <input type="email" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Email</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="text" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__content contact__area">
+                <textarea
+                  name="message"
+                  placeholder=" "
+                  class="contact__input"
+                ></textarea>
+                <label for="" class="contact__label">Message</label>
+              </div>
+            </div>
+
+            <button class="button button--flex">
+              Send Message
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/favicon.svg" alt="logo" />
+            BLUX
+          </a>
+
+          <p class="footer__description">
+            <q
+              >Our vision is to help you make <br />
+              the best Website for you and <br />
+              your business.</q
+            >
+          </p>
+        </div>
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">About</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__links">Features</a>
+              </li>
+              <li>
+                <a href="#" class="footer__links">Offer</a>
+              </li>
+              <li>
+                <a href="#" class="footer__links">News & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Information</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__links">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="footer__links">Videos</a>
+              </li>
+              <li>
+                <a href="#" class="footer__links">Appointment</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Address</h3>
+
+            <ul class="footer__informat">
+              <li>
+                <a href="#" class="footer__links"
+                  >Bagumbayan 1234 Av. <br />
+                  4321, Philippines
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__links">9AM - 11PM</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Social Media</h3>
+
+            <ul class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <img
+          src="assets/img/triangle.png"
+          alt="tringle-iso"
+          class="footer__triangle"
+        />
+        <img
+          src="assets/img/circle-1.png"
+          alt="tringle-iso"
+          class="footer__circle"
+        />
+      </div>
+      <div class="footer__info container">
+        <div class="footer__card">
+          <img src="assets/img/footer-card-1.png" alt="footer images" />
+          <img src="assets/img/footer-card-2.png" alt="footer images" />
+          <img src="assets/img/footer-card-3.png" alt="footer images" />
+          <img src="assets/img/footer-card-4.png" alt="footer images" />
+        </div>
+
+        <span class="footer__copy">
+          &#169; Copyright Blux. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!-- SCROLL REVEAL -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

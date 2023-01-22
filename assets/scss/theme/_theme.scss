@@ -1,0 +1,45 @@
+/* Variables Dark theme*/
+body.dark-theme {
+  --first-color-dark: rgb(47, 55, 51);
+  --title-color: rgb(242, 243, 242);
+  --text-color: rgb(189, 194, 191);
+  --body-color: rgb(2, 2, 2);
+  --container-color: rgb(0, 0, 0);
+  --button: rgb(149, 7, 206);
+  --button-hover: rgb(248, 2, 154);
+  --container: rgb(9, 0, 12);
+  --cards: rgb(149, 7, 206);
+  --number-cards: rgb(3, 3, 3);
+  --white-black: rgb(15, 2, 20);
+  --black-purple: rgb(149, 7, 206);
+  --black-white: rgb(255, 255, 255);
+  --lightgray-white: rgb(255, 255, 255);
+  --shadow: 0 0px 20px rgba(132, 4, 206, 0.527);
+}
+
+/* Button Dark/Light */
+.change-theme {
+  color: var(--title-color);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.nav__btns {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.dark-theme .steps__bg,
+.dark-theme .questions {
+  background-color: var(--container);
+}
+
+.dark-theme,
+.dark-theme {
+  background-color: var(--container-color);
+}
+
+.dark-theme .scroll-header {
+  box-shadow: 0 0px 20px rgba(132, 4, 206, 0.548);
+}

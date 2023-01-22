@@ -1,0 +1,66 @@
+/* GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* VARIABLES CSS */
+:root {
+  --header-height: 3.5rem; // 56px
+
+  /* Colors */
+  --first-color: rgb(149, 7, 206);
+  --first-color-lighten: rgb(230, 239, 235);
+  --title-color: rgb(37, 40, 38);
+  --text-color: rgb(86, 93, 89);
+  --text-color-light: rgb(136, 145, 141);
+  --body-color: rgb(255, 255, 255);
+  --container-color: #fff;
+  --button: rgb(37, 40, 38);
+  --button-hover: rgb(149, 7, 206);
+  --container: rgb(230, 239, 235);
+  --cards: rgb(149, 7, 206);
+  --number-cards: rgb(255, 255, 255);
+  --white-black: rgb(253, 253, 253);
+  --black-purple: rgb(0, 0, 0);
+  --black-white: rgb(2, 2, 2);
+  --lightgray-white: rgb(230, 239, 235);
+  --shadow: 0 0px 20px rgba(132, 4, 206, 0.425);
+
+  /* Font and typography*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+
+  --big-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  // Responsive typography
+  @media screen and (min-width: 968px) {
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+
+  /* Font weight */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* Margenes Bottom*/
+  /*.5rem = 8px | 1rem = 16px */
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /* z index*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}

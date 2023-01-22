@@ -1,0 +1,28 @@
+.scrollup {
+  position: fixed;
+  background: var(--first-color);
+  right: 1rem;
+  bottom: -30%;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  z-index: var(--z-tooltip);
+  opacity: 0.8;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: rgb(248, 2, 154);
+    opacity: 1;
+  }
+
+  &__icon {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 3rem;
+}
+
