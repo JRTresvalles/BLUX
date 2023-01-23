@@ -1,4 +1,5 @@
-![BLUX](https://user-images.githubusercontent.com/122438666/212899321-99eb0663-5cd4-4b2c-84b5-d064b54d6850.png)
+![BLUX (1)](https://user-images.githubusercontent.com/122438666/213951635-d36e5457-4abe-41a5-a6b7-7d3cb83224ba.png)
+
 
 ## Blux Web Development Company (educational purposes only)
 
