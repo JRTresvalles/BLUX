@@ -6,7 +6,7 @@
 I design this website using Figma. It's coded from scratch into an actual responsive website.
 
 ## 💻 To Visit the site, click the link below
-https://blukissgithub.github.io/BLUX/
+https://jrtresvalles.github.io/BLUX/
 
 ## 👩 AboutThe Project
 
